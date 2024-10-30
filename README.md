@@ -59,7 +59,7 @@ This project includes a **Credit Scorecard Model** developed to calculate a cred
    - Each feature is assigned a weight (or coefficient), often derived from logistic regression, reflecting its importance in predicting repayment likelihood.
 
 2. **Score Calculation**:
-   - You can find the formula for the calculation at [this Blog]([URL](https://phamdinhkhanh.github.io/deepai-book/ch_ml/creditScorecard.html#tieu-chuan-mo-hinh-scorecard))
+   - You can find the formula for the calculation at [this Blog](https://phamdinhkhanh.github.io/deepai-book/ch_ml/creditScorecard.html#tieu-chuan-mo-hinh-scorecard)
 
 3. **Score Scaling and Segmentation**:
    - The resulting score is scaled to a 1000 range to ensure consistency.
