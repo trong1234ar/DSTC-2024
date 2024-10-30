@@ -16,16 +16,16 @@ The task is to differentiate between customers who repay their loans on time and
 ### Success Criteria
 - The credit score must effectively differentiate between two customer groups, with defaulters receiving lower scores than non-defaulters.
 
-## Data Understanding
+## 2. Data Understanding
 
-## Data Preparation
+## 3. Data Preparation
 - **Data Cleaning**: Checked for missing values, duplicated values, invalid values, etc.
 - **EDA:** Explored the dataset and uncover the insights to differentiate 2 customer groups.
 - **Feature Engineering:** Created new features to better distinguish between customers who repay and those who don't.
 - **Feature Selection:** Applied Correlation Analytics, Information Value to remove redundant columns, enhancing model's processing time.
 - **Feature Scaling:** Scaled data for model to learn and understand the problem better.
 
-## Modeling
+## 4. Modeling
 1. **Gradient Boosting**
 2. **XGBoost**
 3. **CatBoost**
@@ -71,5 +71,6 @@ This project includes a **Credit Scorecard Model** developed to calculate a cred
    - The resulting score is scaled to a 1000 range to ensure consistency.
    - Customers are then segmented into distinct groups (e.g., five groups) based on score ranges, enabling targeted solutions for each group.
 
+## 5. Result
 
 
