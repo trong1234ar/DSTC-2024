@@ -1,4 +1,4 @@
-# DSTC 2024 | 2nd Place 
+# Data Science Talent Competition 2024 | 2nd Place 
 My very first step toward a career in Data Science.
 
 # Overview
@@ -59,13 +59,7 @@ This project includes a **Credit Scorecard Model** developed to calculate a cred
    - Each feature is assigned a weight (or coefficient), often derived from logistic regression, reflecting its importance in predicting repayment likelihood.
 
 2. **Score Calculation**:
-   - The credit score for each customer is calculated using a formula that aggregates weighted feature scores. A typical formula might look like:
-
-     ```
-     Credit Score = α + Σ (wᵢ * xᵢ)
-     ```
-
-     where `α` is a base score, `wᵢ` represents the weight for feature `xᵢ`, and `xᵢ` is the feature value for a specific customer.
+   - You can find the formula for the calculation at [this Blog]([URL](https://phamdinhkhanh.github.io/deepai-book/ch_ml/creditScorecard.html#tieu-chuan-mo-hinh-scorecard))
 
 3. **Score Scaling and Segmentation**:
    - The resulting score is scaled to a 1000 range to ensure consistency.
@@ -73,6 +67,6 @@ This project includes a **Credit Scorecard Model** developed to calculate a cred
 
 ## 5. Result
 
-![Suggestion](Output/groupdistinction.png)
+![Suggestion](Output/group_distinction.png)
 ![Suggestion](Output/segmentation.png)
 ![Suggestion](Output/suggest.png)
