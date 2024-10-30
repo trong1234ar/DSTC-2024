@@ -1,4 +1,4 @@
-# DSTC 2024 | 2nd Place 
+# Data Science Talent Competition 2024 | 2nd Place 
 My very first step toward a career in Data Science.
 
 # Overview
@@ -8,7 +8,7 @@ This repository contains the final code and representations used in the competit
 ## 1. Business Understanding
 
 ### Context
-The task is to differentiate between customers who repay their loans on time and those who don't, using various features from the dataset. The imbalance between these two classes requires careful handling to avoid biased predictions.
+- The task is to differentiate between customers who repay their loans on time and those who don't, using various features from the dataset. The imbalance between these two classes requires careful handling to avoid biased predictions.
 
 ### Goal
 - Segment customers into five distinct groups based on credit scores, allowing tailored insights and recommendations for each segment.
@@ -33,7 +33,7 @@ The task is to differentiate between customers who repay their loans on time and
 5. **Logistic Regression**
 6. **Random Forest**
 
-The **Gradient Boosting** and **XGBoost** models performed best based on the ROC-AUC and F1-Score.
+- The **Gradient Boosting** and **XGBoost** models performed best based on the ROC-AUC and F1-Score.
 
 ### Results
 
@@ -48,7 +48,7 @@ The **Gradient Boosting** and **XGBoost** models performed best based on the ROC
 | Baseline Logistic Regression       | 0.738   | 0.78    |
 
 
-**Gradient Boosting** showed the highest performance, with good generalization on the test set, indicating that the model is not overfitting.
+- **Gradient Boosting** showed the highest performance, with good generalization on the test set, indicating that the model is not overfitting.
 
 ### Credit Scorecard Model
 
@@ -59,13 +59,7 @@ This project includes a **Credit Scorecard Model** developed to calculate a cred
    - Each feature is assigned a weight (or coefficient), often derived from logistic regression, reflecting its importance in predicting repayment likelihood.
 
 2. **Score Calculation**:
-   - The credit score for each customer is calculated using a formula that aggregates weighted feature scores. A typical formula might look like:
-
-     ```
-     Credit Score = α + Σ (wᵢ * xᵢ)
-     ```
-
-     where `α` is a base score, `wᵢ` represents the weight for feature `xᵢ`, and `xᵢ` is the feature value for a specific customer.
+   - You can find the formula for the calculation at [this Blog](https://phamdinhkhanh.github.io/deepai-book/ch_ml/creditScorecard.html#tieu-chuan-mo-hinh-scorecard)
 
 3. **Score Scaling and Segmentation**:
    - The resulting score is scaled to a 1000 range to ensure consistency.
@@ -73,4 +67,6 @@ This project includes a **Credit Scorecard Model** developed to calculate a cred
 
 ## 5. Result
 
-
+![Suggestion](Output/group_distinction.png)
+![Suggestion](Output/segmentation.png)
+![Suggestion](Output/suggest.png)
