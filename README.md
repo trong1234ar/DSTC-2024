@@ -5,7 +5,7 @@ My very first step toward a career in Data Science.
 
 This repository contains the final code and representations used in the competition, where the **Crazy Chipmunk** team developed machine learning models to predict customer debt repayment behavior and built a Credit Scorecard Model to segment customers, providing tailored solutions for each customer group.
 
-## Business Understanding
+## 1. Business Understanding
 
 ### Context
 The task is to differentiate between customers who repay their loans on time and those who don't, using various features from the dataset. The imbalance between these two classes requires careful handling to avoid biased predictions.
